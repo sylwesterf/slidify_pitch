@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alcohol consumption application</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Alcohol consumption application">
+  <meta name="author" content="Sylweser Fronczak">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/prettify/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Alcohol consumption application</h1>
+    <h2>Pitch Presentation - Developing Data Products</h2>
+    <p>Sylweser Fronczak<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>What&#39;s the app about...</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br>
+<br>
+<br>
+It&#39;s an R Shiny application showing alcohol consumption across some OECD countries.
+<br>
+(Honestly, I wanted to make an app on whisky consumption, but the complete data was hard to find).</p>
+
+<p><br>
+The data used in this app comes from OECD website: <a href="http://stats.oecd.org/">http://stats.oecd.org/</a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>What&#39;s happening there...</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>After user chooses two countries a plot is shown on the right side panel:</p>
+
+<p><img src="assets/fig/unnamed-chunk-1-1.png" alt="plot of chunk unnamed-chunk-1"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>What&#39;s happening there... (cont&#39;d)</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Below the plot a summary data is printed:</p>
+
+<pre><code>## [1] &quot;Austria&quot;
+</code></pre>
+
+<pre><code>##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA&#39;s 
+##    9.40   12.78   14.15   13.60   14.50   15.60       2
+</code></pre>
+
+<pre><code>## [1] &quot;Finland&quot;
+</code></pre>
+
+<pre><code>##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA&#39;s 
+##   2.700   7.400   8.200   7.647   9.200  10.500       1
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>A list of countries in the dataset</h2>
+  </hgroup>
+  <article data-timings="">
+    <pre><code>##  [1] &quot;Australia&quot;       &quot;Austria&quot;         &quot;Belgium&quot;        
+##  [4] &quot;Canada&quot;          &quot;Chile&quot;           &quot;Czech_Republic&quot; 
+##  [7] &quot;Denmark&quot;         &quot;Estonia&quot;         &quot;Finland&quot;        
+## [10] &quot;France&quot;          &quot;Germany&quot;         &quot;Greece&quot;         
+## [13] &quot;Hungary&quot;         &quot;Iceland&quot;         &quot;Ireland&quot;        
+## [16] &quot;Israel&quot;          &quot;Italy&quot;           &quot;Japan&quot;          
+## [19] &quot;Korea&quot;           &quot;Luxembourg&quot;      &quot;Mexico&quot;         
+## [22] &quot;Netherlands&quot;     &quot;New_Zealand&quot;     &quot;Norway&quot;         
+## [25] &quot;Poland&quot;          &quot;Portugal&quot;        &quot;Slovak_Republic&quot;
+## [28] &quot;Slovenia&quot;        &quot;Spain&quot;           &quot;Sweden&quot;         
+## [31] &quot;Switzerland&quot;     &quot;Turkey&quot;          &quot;United_Kingdom&quot; 
+## [34] &quot;United_States&quot;
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='What&#39;s the app about...'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='What&#39;s happening there...'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='What&#39;s happening there... (cont&#39;d)'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='A list of countries in the dataset'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- Google Prettify -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js"></script>
+  <script src='libraries/highlighters/prettify/js/lang-r.js'></script>
+  <script>
+    var pres = document.getElementsByTagName("pre");
+    for (var i=0; i < pres.length; ++i) {
+      pres[i].className = "prettyprint linenums";
+    }
+    prettyPrint();
+  </script>
+  <!-- End Google Prettify --> 
+  </html>
