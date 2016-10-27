@@ -1,7 +1,7 @@
 ---
 title       : Alcohol consumption application
 subtitle    : Pitch Presentation - Developing Data Products
-author      : Sylweser Fronczak
+author      : Sylwester Fronczak
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : prettify      # {highlight.js, prettify, highlight}
